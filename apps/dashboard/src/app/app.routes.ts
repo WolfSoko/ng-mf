@@ -1,12 +1,12 @@
-import { Route } from '@angular/router';
-import { loadRemoteModule } from '@nx/angular/mf';
-import { AppComponent } from './app.component';
+import {Route} from '@angular/router';
+import {loadRemote} from '@module-federation/enhanced/runtime';
+import {AppComponent} from './app.component';
 
 export const appRoutes: Route[] = [
   {
     path: 'login',
     loadChildren: () =>
-      loadRemoteModule('login', './Routes').then((m) => m.remoteRoutes),
+      loadRemote<typeof import('login/Routes')>('login/Routes').then((m) => m?.remoteRoutes ?? []),
   },
   {
     path: '',

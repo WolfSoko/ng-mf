@@ -1,0 +1,16 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":label(dependencies)",
+    "github>WolfSoko/nx-renovate-self-hosted:nxMonorepo",
+    ":assignee(WolfSoko)"
+  ],
+  "schedule": ["at any time"],
+  "prConcurrentLimit": 2,
+  "automergeStrategy": "rebase",
+  "automerge": true,
+  "automergeType": "pr",
+  "platformAutomerge": true,
+  "prCreation": "immediate"
+}
