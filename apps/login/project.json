@@ -80,16 +80,6 @@
         "buildTarget": "login:build"
       }
     },
-    "lint": {
-      "executor": "@nx/eslint:lint"
-    },
-    "test": {
-      "executor": "@nx/vite:test",
-      "outputs": ["{options.reportsDirectory}"],
-      "options": {
-        "reportsDirectory": "../../coverage/apps/login"
-      }
-    },
     "serve-static": {
       "executor": "@nx/web:file-server",
       "defaultConfiguration": "production",
