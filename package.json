@@ -14,13 +14,13 @@
     "@angular/language-service": "~18.2.0",
     "@eslint/js": "^9.8.0",
     "@module-federation/enhanced": "0.7.3",
-    "@nx/devkit": "20.1.0",
-    "@nx/eslint": "20.1.0",
-    "@nx/eslint-plugin": "20.1.0",
-    "@nx/js": "20.1.0",
-    "@nx/web": "20.1.0",
-    "@nx/webpack": "20.1.0",
-    "@nx/workspace": "20.1.0",
+    "@nx/devkit": "20.1.2",
+    "@nx/eslint": "20.1.2",
+    "@nx/eslint-plugin": "20.1.2",
+    "@nx/js": "20.1.2",
+    "@nx/web": "20.1.2",
+    "@nx/webpack": "20.1.2",
+    "@nx/workspace": "20.1.2",
     "@playwright/test": "^1.36.0",
     "@schematics/angular": "~18.2.0",
     "@swc-node/register": "~1.10.0",
@@ -31,7 +31,7 @@
     "eslint": "^9.8.0",
     "eslint-config-prettier": "^9.0.0",
     "jsdom": "~25.0.0",
-    "nx": "20.1.0",
+    "nx": "20.1.2",
     "prettier": "^3.0.0",
     "tslib": "^2.3.0",
     "typescript": "~5.5.2",
@@ -48,6 +48,6 @@
     "@angular/router": "~18.2.0",
     "@nx/angular": "^20.1.0",
     "rxjs": "~7.8.0",
-    "zone.js": "~0.14.3"
+    "zone.js": "~0.15.0"
   }
 }
